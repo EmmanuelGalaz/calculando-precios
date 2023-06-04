@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="asset/css/stayl.css">
+
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
 
 
@@ -16,7 +17,7 @@
     <div class="container">
         <img class="comutadora" src="asset/img/computadora1.jpg" alt="pc escritorio">
         <p>PC de Escritorio Ultima Generación </p>
-        <input name="input1" id="tipo" type="nombre" placeholder="cantidad" min="1" max="10">
+        <input name="input1" id="tipo" type="number" placeholder="cantidad" min="1" max="10">
         <select name="colors" id="colores" onchange=" color()">
             <option value="green">verde</option>
             <option value="blue">azul</option>
@@ -28,7 +29,7 @@
     </div>
     <div class="container2">
         <p id="total">Total:$<span id="total-compra">0</span></p>
-        <p >cantidad:<span id="cantidad">0</span></p>
+        <p id="phar_amount">cantidad:<span id="cantidad">0</span></p>
         <div class="parrafo">
             <p id="tipos-color"><span >color:</span> </p>
             <div id="circulo1" class="circulo"></div>
