@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(243, 239, 239);
+    
+}
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgb(12, 12, 12);
+    border-radius: 10px;
+    margin: 10px;
+    background-color: rgb(72, 104, 24);
+    box-shadow: 5px 5px 5px rgb(90, 88, 83);
+    font-family: 'Righteous', cursive; 
+}
+.comutadora{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 10px;
+    border: 2px solid gray;
+}
+
+input{
+    margin: 10px;
+    width: 80%;
+    height: 25px;
+    border: 2px solid gray;
+    border-radius: 3px;
+    font-family: 'Nanum Myeongjo', serif;   
+}
+
+select{
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 80%;
+    height: 25px;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+.container p{
+    font-size: 20px;
+}
+
+.boton-total{
+    cursor: pointer;
+    background-color: rgb(58, 104, 65);
+    width: 50%;
+    height: 10%;
+    border: 2px solid gray;
+    border-radius: 3px;
+    color: white;
+    margin: 10px;
+    padding: 3px;
+    box-shadow: 5px 5px 5px rgb(90, 88, 83);
+}
+
+
+.container2{
+    border: 2px solid gray;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: rgba(117, 160, 52, 0.404);
+    box-shadow: 5px 5px 5px rgb(90, 88, 83);
+    font-family: 'Nanum Myeongjo', serif;
+}
+.container2 p{
+    margin: 3px;
+    color: white;
+}
+.circulo{
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+    border: 2px solid;
+    box-shadow: 1px 2px 2px 0px rgb(90, 88, 83);
+}
+#tipos_color{
+    display: flex;
+    justify-content: left;
+    width: 70px; 
+}
+.parrafo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
